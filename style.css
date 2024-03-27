@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(255, 248, 251);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav {
+    background-color: rgb(255, 97, 123);
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.text-nav {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;  
+}
+
+.text-nav:hover {
+    background-color: rgb(255, 75, 105);
+}
+
+.nav-left {
+    margin: 0;
+}
+.nav-right {
+    display: block;
+    margin-left: auto !important;
+    background-color: white;
+    border-radius: 25px;
+    color: rgb(255, 97, 123);
+    text-decoration: none;
+    padding: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.login {
+    color: rgb(255, 97, 123);
+    text-decoration: none;
+    /* border: 1px solid rgb(255, 97, 123); */
+    /* border-radius: 25px; */
+    /* padding: 10px; */
+}
+
+.nav-right:hover {
+    background-color: rgb(255, 244, 246);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.box {
+    border: 2px solid rgb(255, 97, 123);
+    color: rgb(82, 82, 82);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.login-box {
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    width: 20%;
+    background-color: white;
+    /* color: rgb(255, 97, 123); */
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(255, 97, 123); */
+    /* box-shadow: 0px 0px 15px 1px rgb(255, 97, 123); */
+}
+
+.login-input {
+    border-radius: 10px;
+    /* border: 2px solid rgb(255, 97, 123); */
+    padding: 20px;
+}
+
+.login-button {
+    display: block;
+    border-radius: 10px;
+    /* border: 2px solid rgb(255, 97, 123); */
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0px 0px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    /* color: rgb(255, 97, 123); */
+}
+
+.login-button:hover {
+    color: white;
+    background-color: rgb(255, 97, 123);
+}
+
+.input {
+    border-radius: 10px;
+    /* border: 2px solid rgb(255, 97, 123); */
+    width: 93%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+}
+
+.congrat {
+    color: gray;
+    text-align: center;
+    margin-top: 200px;
+    position: relative  ;
+    animation: mymove 2s;
+}
+
+.c-button {
+    display: block;
+    margin: auto !important;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 97, 123);
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px !important;
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 97, 123);
+    font-size: 20px;
+    box-shadow: 0px 0px 15px 1px rgb(255, 97, 123);
+}
+
+.c-button:hover {
+    color: white;
+    background-color: rgb(255, 97, 123);
+}
+
+.ad {
+    color: gray;
+    text-align: center;
+    margin-top: 300px;
+}
+
+@keyframes mymove {
+    0% {font-size: 2px;}
+    /* 25% {font-size: x-small;}
+    50% {font-size: smaller;}
+    75% {font-size: small;} */
+    100% {font-size: medium;}
+}
